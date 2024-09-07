@@ -1,0 +1,78 @@
+/* Estilos globales para toda la aplicación */
+
+body {
+  background-color: #090909; /* Fondo negro */
+  color: #ffffff; /* Texto en blanco */
+  font-family: Arial, sans-serif; /* Fuente por defecto */
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #ff0000; /* Enlaces en rojo */
+  text-decoration: none; /* Sin subrayado en los enlaces */
+}
+
+a:hover {
+  text-decoration: underline; /* Subrayar enlaces al pasar el ratón */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header,
+.footer {
+  background-color: #333333; /* Encabezado y pie de página en gris oscuro */
+  padding: 10px;
+  text-align: center;
+}
+
+.button {
+  background-color: #ff0000; /* Botones en rojo */
+  color: #ffffff; /* Texto del botón en blanco */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #cc0000; /* Rojo más oscuro al pasar el ratón */
+}
+
+input,
+textarea {
+  background-color: #222222; /* Campos de entrada con fondo gris oscuro */
+  color: #ffffff; /* Texto en blanco */
+  border: 1px solid #444444; /* Borde gris oscuro */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #ff0000; /* Borde en rojo cuando el campo está enfocado */
+  outline: none;
+}
+
+.card {
+  background-color: #333333; /* Fondo de tarjetas o contenedores */
+  color: #ffffff; /* Texto en blanco */
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.error-message {
+  color: #ff0000; /* Mensajes de error en rojo */
+  font-weight: bold;
+}
+
+.success-message {
+  color: #00ff00; /* Mensajes de éxito en verde */
+  font-weight: bold;
+}
